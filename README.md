@@ -107,6 +107,7 @@ Finally to add your project to a new Github repository:
     git config user.name <yourGithubUser>
     git config user.email <yourGithubEmail>
     git add --all
+    git commit -m "initial commit"
 
 ## Interesting websites
 * [Electron - Writing Your First Electron App](https://electronjs.org/docs/tutorial/first-app)
