@@ -102,12 +102,14 @@ Now run the electron application
 
 ![Electron app with Angular inside](ElectronAppWithAngularInside.jpg)
 
-Finally to add your project to a new Github repository:
+Finally to add your project to a new Github repository, create one simple repo on Github and then add your code from the command line:
 
     git config user.name <yourGithubUser>
     git config user.email <yourGithubEmail>
     git add --all
     git commit -m "initial commit"
+    git remote add origin git remote add origin https://github.com/<userName>/<repositoryName>.git
+    git push -u origin master
 
 ## Interesting websites
 * [Electron - Writing Your First Electron App](https://electronjs.org/docs/tutorial/first-app)
